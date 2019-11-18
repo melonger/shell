@@ -2,6 +2,7 @@
 alias tfpsetup="terraform plan --var-file=../varfiles/setup.tfvars"
 alias tfasetup="terraform apply -auto-approve --var-file=../varfiles/setup.tfvars"
 alias tfdsetup="terraform destroy -auto-approve --var-file=../varfiles/setup.tfvars"
+
 # Terraform ENV Aliases
 alias tfpenv="terraform plan --var-file=../varfiles/vars.tfvars"
 alias tfaenv="terraform apply -auto-approve --var-file=../varfiles/vars.tfvars"
